@@ -4,7 +4,7 @@ This repository contains the REDCap data dictionaries for PPI surveys.
 ## Source
 The data dictionaries were pulled from REDCap via its API. If trying to read data using the URL, please use
 the "raw" version by clicking the "Raw" button in the repository. Please see example below:<br><br>
-![GHRaw](Githubrawscreenshot.png)
+![GHRaw](References/Githubrawscreenshot.png)
 
 ## Updates and Releases
 This repo will be routinely updated on the first Thursday of every month. If there are 
