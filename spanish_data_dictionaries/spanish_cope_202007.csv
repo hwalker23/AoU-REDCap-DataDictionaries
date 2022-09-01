@@ -1,6 +1,6 @@
 field_name,form_name,section_header,field_type,field_label,select_choices_or_calculations,field_note,text_validation_type_or_show_slider_number,text_validation_min,text_validation_max,identifier,branching_logic,required_field,custom_alignment,question_number,matrix_group_name,matrix_ranking,field_annotation
 record_id,spanish_covid19_participant_experience_cope_survey,,text,"Record ID",,,,,,,,,,,,,
-cope_jul,spanish_covid19_participant_experience_cope_survey,,descriptive,,,,,,,,,,,,,,"Launched 7/7/2020-09/25/20 (PTSC & CE)."
+cope_jul,spanish_covid19_participant_experience_cope_survey,,descriptive,"Encuesta sobre la experiencia del participante (COPE) de Covid-19 de julio de 2020",,,,,,,,,,,,,"Launched 7/7/2020-09/25/20 (PTSC & CE)."
 section_intro,spanish_covid19_participant_experience_cope_survey,,descriptive,"¿Qué debo saber antes de participar? 
 
 El Programa Científico All of Us busca entender los cambios en sus experiencias y su salud durante la pandemia de la enfermedad del coronavirus 2019 (COVID-19). Ayúdenos a saber más al completar esta encuesta. Su participación puede ayudar a investigadores científicos en todo el mundo a entender mejor el impacto de la pandemia COVID-19 durante estos tiempos difíciles. El Programa Científico All of Us repetirá esta encuesta a lo largo de la pandemia.
