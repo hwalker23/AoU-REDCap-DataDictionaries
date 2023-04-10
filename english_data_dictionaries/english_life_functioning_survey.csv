@@ -1,0 +1,18 @@
+field_name,form_name,section_header,field_type,field_label,select_choices_or_calculations,field_note,text_validation_type_or_show_slider_number,text_validation_min,text_validation_max,identifier,branching_logic,required_field,custom_alignment,question_number,matrix_group_name,matrix_ranking,field_annotation
+record_id,life_functioning_survey,,text,"Record ID",,,,,,,,,LV,,,,
+lfs,life_functioning_survey,,descriptive,"Life Functioning Survey",,,,,,,,,,,,,"Launched 9/22/2022"
+disability_deaf,life_functioning_survey,"This survey asks questions about your life functioning including disabilities you may have. It takes less than 2 minutes to complete. Please answer each question as honestly as possible. There are no right or wrong answers to any of the questions. We are looking for your own answers, and not what you think your doctors, family, or friends want you to say.
+
+Don't feel like you have to spend a long time on each question. The first answer that comes to you is usually the best one. If you aren't sure how to answer a question, choose the best answer from the options given. To ensure your privacy, your name will be separated from your answers before they are shared with researchers.
+
+These six questions ask if you have a disability. Some questions will ask you about more than one disability at a time. Please answer ""Yes"" if you have any one of them.
+
+[Optional Informational Pop-up: ""In 1990, Congress passed a civil rights law to prohibit discrimination against people with disabilities. The name of that law is the ADA (Americans with Disabilities Act). Having a disability means you might have a physical or mental health condition. That condition might make it difficult to walk, breathe, learn, read, communicate, see, hear, or think.""]  ",radio,"Are you deaf or do you have serious difficulty hearing?","Deaf_Yes, Yes | Deaf_No, No | Deaf_PreferNotToAnswer, Prefer not to answer",,,,,,,,,,,,
+disability_blind,life_functioning_survey,,radio,"Are you blind or do you have serious difficulty seeing, even when wearing glasses?","Blind_Yes, Yes | Blind_No, No | Blind_PreferNotToAnswer, Prefer not to answer",,,,,,,,,,,,
+disability_difficultyconcentrating,life_functioning_survey,,radio,"Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering or making decisions?","DifficultyConcentrating_Yes, Yes | DifficultyConcentrating_No, No | DifficultyConcentrating_PreferNotToAnswer, Prefer not to answer",,,,,,,,,,,,
+disability_walkingclimbing,life_functioning_survey,,radio,"Do you have serious difficulty walking or climbing stairs?","WalkingClimbing_Yes, Yes | WalkingClimbing_No, No | WalkingClimbing_PreferNotToAnswer, Prefer not to answer",,,,,,,,,,,,
+disability_dressingbathing,life_functioning_survey,,radio,"Do you have difficulty dressing or bathing?","DressingBathing_Yes, Yes | DressingBathing_No, No | DressingBathing_PreferNotToAnswer, Prefer not to answer",,,,,,,,,,,,
+disability_errandsalone,life_functioning_survey,,radio,"Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting doctor's office or shopping?","ErrandsAlone_Yes, Yes | ErrandsAlone_No, No | ErrandsAlone_PreferNotToAnswer, Prefer not to answer",,,,,,,,,,,,
+outro,life_functioning_survey,,descriptive,"Thank you for completing this survey.
+
+Your experiences can help researchers better understand and improve health for <i>All of Us</i>.",,,,,,,,,,,,,

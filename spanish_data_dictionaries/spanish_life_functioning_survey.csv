@@ -1,0 +1,18 @@
+field_name,form_name,section_header,field_type,field_label,select_choices_or_calculations,field_note,text_validation_type_or_show_slider_number,text_validation_min,text_validation_max,identifier,branching_logic,required_field,custom_alignment,question_number,matrix_group_name,matrix_ranking,field_annotation
+record_id,life_functioning_survey,,text,"Record ID",,,,,,,,,LV,,,,
+lfs,life_functioning_survey,,descriptive,"Encuesta sobre el estado funcional de su vida",,,,,,,,,,,,,
+disability_deaf,life_functioning_survey,"Esta encuesta hace preguntas sobre el estado funcional en su vida, incluyendo las discapacidades que pueda tener. Toma menos de dos minutos para completarse. Por favor, responda cada pregunta de la manera más honesta posible.  No hay respuestas correctas ni incorrectas para cualquiera de estas preguntas. Estamos buscando sus propias respuestas y no lo que piensan sus doctores, familiares, o amigos.
+
+No sienta que tiene que tomarse mucho tiempo para cada pregunta. La primera respuesta que se le ocurra es usualmente la mejor. Si no está seguro(a) de cómo responder la pregunta, escoja la mejor respuesta de las opciones presentadas. Para garantizar su privacidad, su nombre se separará de sus respuestas antes de que se compartan con los investigadores científicos.
+
+En estas seis preguntas se pregunta si tiene una discapacidad.  En algunas preguntas se le preguntará sobre más de una discapacidad a la vez.  Por favor, responda ""Sí"" si tiene alguna de estas.
+
+[Optional Informational Pop-up: ""En 1990, el Congreso aprobó una ley de derechos civiles para prohibir la discriminación contra las personas con discapacidades.  El nombre de esa ley es ADA (Americans with Disabilities Act).  Tener discapacidades significa que puede tener problemas de salud físicos o mentales.  Ese problema le puede dificultar hacer cosas como caminar, aprender, leer, comunicar, ver, oír, o pensar.""]  ",radio,"¿Es usted sordo(a) o tiene una dificultad sería para oír?","Deaf_Yes, Sí | Deaf_No, No | Deaf_PreferNotToAnswer, Prefiero no responder",,,,,,,,,,,,
+disability_blind,life_functioning_survey,,radio,"¿Es usted ciego(a) o tiene una dificultad seria para ver aunque lleve puestos espejuelos o lentes?","Blind_Yes, Sí | Blind_No, No | Blind_PreferNotToAnswer, Prefiero no responder",,,,,,,,,,,,
+disability_difficultyconcentrating,life_functioning_survey,,radio,"Debido a una condición física, mental o emocional, ¿tiene usted una dificultad seria para concentrarse, recordar o tomar decisiones?","DifficultyConcentrating_Yes, Sí | DifficultyConcentrating_No, No | DifficultyConcentrating_PreferNotToAnswer, Prefiero no responder",,,,,,,,,,,,
+disability_walkingclimbing,life_functioning_survey,,radio,"¿Tiene usted una dificultad seria para caminar o subir las escalares?","WalkingClimbing_Yes, Sí | WalkingClimbing_No, No | WalkingClimbing_PreferNotToAnswer, Prefiero no responder",,,,,,,,,,,,
+disability_dressingbathing,life_functioning_survey,,radio,"¿Tiene usted dificultad para vestirse o bañarse?","DressingBathing_Yes, Sí | DressingBathing_No, No | DressingBathing_PreferNotToAnswer, Prefiero no responder",,,,,,,,,,,,
+disability_errandsalone,life_functioning_survey,,radio,"Debido a una condición física, mental o emocional, ¿tiene usted dificultad para hacer diligencias o mandados solo(a), tal como ir al consultorio de un médico o ir de compras?","ErrandsAlone_Yes, Sí | ErrandsAlone_No, No | ErrandsAlone_PreferNotToAnswer, Prefiero no responder",,,,,,,,,,,,
+outro,life_functioning_survey,,descriptive,"Gracias por completar esta encuesta.
+
+Sus experiencias pueden ayudar a investigadores científicos a entender y mejorar la salud de todos nosotros.",,,,,,,,,,,,,
