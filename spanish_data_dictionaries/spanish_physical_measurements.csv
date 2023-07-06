@@ -1,0 +1,42 @@
+field_name,form_name,section_header,field_type,field_label,select_choices_or_calculations,field_note,text_validation_type_or_show_slider_number,text_validation_min,text_validation_max,identifier,branching_logic,required_field,custom_alignment,question_number,matrix_group_name,matrix_ranking,field_annotation
+record_id,physical_measurements,,text,"Record ID",,,,,,,,,,,,,
+pm_height_weight,physical_measurements,,descriptive,,,,,,,,,,,,,,
+pm_intro,physical_measurements,,descriptive,"El propósito de esta encuesta es recopilar información sobre su estatura y peso. Las medidas físicas ayudan a los investigadores científicos a entender su salud y el riesgo de desarrollar ciertos problemas de salud. La encuesta solo tiene dos preguntas y esperamos le tome menos de un minuto completarla. Es posible que le pidamos proporcionar más medidas físicas en el futuro.
+ 
+Responda cada pregunta de la manera más honesta posible. Estamos buscando sus propias respuestas, no lo que usted piensa que su doctor, familiares o amigos quieren que responda. Si no sabe su estatura y peso exactos, puede dar una respuesta aproximada. Puede dejar la respuesta en blanco si no puede responder.",,,,,,,,,,,,,
+measurement_unit,physical_measurements,,radio,"Seleccione la unidad de medida que prefiere
+","pm_1, Quiero usar la medida de pies/pulgadas y libras (sistema imperial) | pm_2, Quiero usar centímetros y kilogramos. (sistema métrico)",,,,,,,,,,,,
+height_descriptive,physical_measurements,,descriptive,"Escriba su estatura
+
+¿Qué tan alto es usted sin sus zapatos?",,,,,,,"[measurement_unit] <> """"",,,,,,
+self_reported_height_ft,physical_measurements,,text,Pies,,,integer,3,7,,"[measurement_unit] = 'pm_1'",,,,,,
+self_reported_height_in,physical_measurements,,text,Pulgadas,,,integer,0,11,,"[measurement_unit] = 'pm_1'",,,,,,
+self_reported_height_cm,physical_measurements,,text,Centímetros,,,integer,94,215,,"[measurement_unit] = 'pm_2'",,,,,,
+weight_descriptive,physical_measurements,,descriptive,"Escriba su peso
+
+¿Cuánto pesa sin su ropa o zapatos?
+Si está embarazada actualmente, ¿cuánto pesaba antes de su embarazo?
+",,,,,,,"[measurement_unit] <> """"",,,,,,
+self_reported_weight_pounds,physical_measurements,,text,Libras,,,number_1dp,,,,"[measurement_unit] = 'pm_1'",,,,,,"Minimum value: 66
+Maximum value: 661"
+self_reported_weight_kg,physical_measurements,,text,Kilogramos,,,number_1dp,,,,"[measurement_unit] = 'pm_2'",,,,,,"Minimum value: 30
+Maximum value: 300"
+review_imperial,physical_measurements,,descriptive,"¡Casi terminamos! Por favor revise sus respuestas antes de enviarlas.
+Gracias por escribir su estatura y peso.
+Aquí está la información que proporcionó:
+
+
+Estatura: [self_reported_height_ft] pies [self_reported_height_in] pulgadas
+
+Peso: [self_reported_weight_pounds] libras
+
+Presione Enviar para que sus respuestas queden registradas, o presione Anterior si necesita editarlas.",,,,,,,"[measurement_unit] = 'pm_1'",,,,,,
+review_metric,physical_measurements,,descriptive,"¡Casi terminamos! Por favor revise sus respuestas antes de enviarlas.
+Gracias por escribir su estatura y peso.
+Aquí está la información que proporcionó:
+
+Estatura: [self_reported_height_cm] centímetros
+
+Peso: [self_reported_weight_kg] kilogramos
+
+Presione Enviar para que sus respuestas queden registradas, o presione Anterior si necesita editarlas.",,,,,,,"[measurement_unit] = 'pm_2'",,,,,,

@@ -1,0 +1,16 @@
+field_name,form_name,section_header,field_type,field_label,select_choices_or_calculations,field_note,text_validation_type_or_show_slider_number,text_validation_min,text_validation_max,identifier,branching_logic,required_field,custom_alignment,question_number,matrix_group_name,matrix_ranking,field_annotation
+record_id,wear_consent,,text,"Record ID",,,,,,,,,,,,,
+wear_consent,wear_consent,,descriptive,"WEAR Consent",,,,,,,,,,,,,
+wearwatch,wear_consent,,radio,"Have you ever worn a watch?","PMI_Yes, Yes | PMI_No, No",,,,,,,,,,,,
+usetracker,wear_consent,,radio,"Have you ever used an activity tracker?","PMI_Yes, Yes | PMI_No, No",,,,,,,,,,,,
+havesmartphone,wear_consent,,radio,"Do you have access to a smartphone or tablet?","PMI_Yes, Yes | PMI_No, No",,,,,,,,,,,,"This is replacing the usetracker field"
+wear12months,wear_consent,,radio,"Would you be willing to wear your device for 12 months?","PMI_Yes, Yes | PMI_No, No",,,,,,,,,,,,
+receivesms,wear_consent,,radio,"Are you willing and able to receive SMS messages from <i>All of Us</i>?","PMI_Yes, Yes | PMI_No, No",,,,,,,,,,,,
+frequency,wear_consent,,radio,"How often do you want to hear from us?","TwiceWeekly, Twice a week | OnceWeekly, Once a week | TwiceMonthly, Twice a month | OnceMonthly, Once a month | Never, Do not contact me",,,,,,,,,,,,
+timeofday,wear_consent,,text,"What time of day do you want to hear from us?",,,,,,,"[frequency] = 'TwiceWeekly' or [frequency] = 'OnceWeekly' or [frequency] = 'TwiceMonthly' or [frequency] = 'OnceMonthly'",,,,,,
+agreetoshare,wear_consent,,radio,"Do you agree to share your Fitbit data with the <i>All of Us</i> Research Program?","PMI_Yes, Yes | PMI_No, No",,,,,,,,,,,,
+onlyparticipantinhousehold,wear_consent,,radio,"Will you be the only person in your household participating in this study?","PMI_Yes, Yes | PMI_No, No",,,,,,,,,,,,
+haveaddress,wear_consent,,radio,"Do have a mailing address at which you can receive a package from Fitbit?","PMI_Yes, Yes | PMI_No, No",,,,,,,,,,,,
+resultsconsent_wear,wear_consent,,radio,"Do you consent to participate in the WEAR study?","WEAR_Yes, Yes | WEAR_No, No",,,,,,,,,,,,
+resultsconsent_helpmewithconsent,wear_consent,,radio,"Did someone from <i>All of Us</i> help you with the consent process?","HelpMeWithConsent_Yes, Yes | HelpMeWithConsent_No, No",,,,,,,,,,,,
+helpmewithconsent_name,wear_consent,,text,"Please have the person that helped you type their name below.",,,,,,,"[resultsconsent_helpmewithconsent] = 'HelpMeWithConsent_Yes'",,,,,,
